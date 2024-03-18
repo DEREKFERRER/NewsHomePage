@@ -1,0 +1,61 @@
+h3:hover{
+    color:  hsl(35, 77%, 62%);
+    cursor: pointer;
+    
+  }
+  .article{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+  }
+  .image_article{
+    display: flex;
+    align-items: center;
+  }
+  .article_title{
+    color: hsl(240, 100%, 5%);
+    cursor: pointer;
+    font-family: extraBold;
+    line-height: 1px;
+  }
+  .article_title:hover{
+    color: hsl(5, 85%, 63%);
+  }
+  .paragraph {
+    color: hsl(236, 13%, 42%);
+     width: 225px;
+    font-Family: regularFont;
+    line-height: 25px;
+  }
+  .number{
+    font-family: interBold;
+    color: hsl(233, 8%, 79%);
+  }
+  .gadgets {
+    height: 120px; 
+    width:90px;
+  }
+  @media only screen and (max-width: 600px) {
+    .article{
+      display: block;
+      gap: 10px;
+      padding: 50px 0 0 0;
+    }
+    .image_article h2 {
+      font-size:xx-large;
+    }
+    .article_title{
+      line-height: 2px;
+    }
+    .paragraph {
+      width: 100%;
+     
+    }
+    .number{
+      line-height: 0.5;
+    }
+    .gadgets {
+      height: 100%; 
+      width:100px;
+    }
+  }

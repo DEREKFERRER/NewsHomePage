@@ -1,0 +1,24 @@
+@font-face {
+  font-family: regularFont;
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: interBold;
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: extraBold;
+  src: url(./assets/fonts/static/Inter-ExtraBold.ttf);
+  font-weight: 800;
+}
+body{
+  font-size: 15px;
+}
+@media only screen and (max-width: 375px) {
+  body{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

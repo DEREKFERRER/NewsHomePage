@@ -1,0 +1,187 @@
+.web{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .logo{
+    width: 670px;
+  }
+.future{
+    display: flex;
+    justify-content: space-between;
+  }
+  .future h1 {
+     font-size: 2.5rem;
+      width: 210px;
+      font-family: extraBold;
+    }
+  .text {
+    padding-top: 10px;
+    padding-Left: 10px;
+    padding-Right:10px;
+    color:  hsl(236, 13%, 42%);
+    line-height: 20px;
+  }
+  .text p{
+    font-family: regularFont;
+    width: 340px; 
+    padding-bottom: 20px;
+  }
+  
+.button{
+    font-family: regularFont;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: hsl(5, 85%, 63%);
+    width: 120px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .button:hover{
+    background-color: hsl(240, 100%, 5%);
+  }
+  
+.right_text{
+    background-color:hsl(240, 100%, 5%);
+    padding: 0 25px 0 25px;
+    color: white;
+    width: 290px;
+    height: 460px;
+  }
+  .right_new{
+    color:  hsl(35, 77%, 62%);
+    font-family: extraBold;
+  }
+
+  .right_box h3{
+    font-family: interBold;
+  }
+  .right_box p{
+    font-family: regularFont;
+    line-height: 25px;
+  }
+  @media only screen and (max-width: 700px) {
+    .web{
+      display: block;
+    }
+    .logo{
+      display: none;
+    }
+    .logoMobile{
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .future{
+      display: block;
+    }
+    .future h1 {
+      display: inline;
+      font-size: 2.6rem;
+     }
+     .text {
+       width: 100%;
+       line-height: 30px;
+       padding-Left: 0;
+       padding-Right: 0;
+     }
+     .text p{
+       width: 100%;
+       padding-bottom: 5px;
+     }
+     .button{
+       text-align: center;
+       cursor: pointer;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       background-color: hsl(5, 85%, 63%);
+       width: 150px;
+       letter-spacing: 5px;
+       text-transform: uppercase;
+     }
+     .right_text{
+       margin-top: 70px;
+       padding: 10px 0 10px 0;
+       height: 100%;
+       width: 100%;
+     }
+     .right_new{
+      padding: 0 20px 0 20px;
+     }
+     .right_box {
+       padding: 0 20px 0 20px;
+     }
+     .right_box h3 {
+       padding: 8px 0 0 0;
+     }
+     .right_box p {
+       padding: 0 0 8px 0;
+     }
+     .right_text hr {
+       margin: 0 20px 0 20px;
+     }
+  }
+  @media only screen and (max-width: 375px) {
+    .web{
+      display: block;
+    }
+    .logo{
+      display: none;
+    }
+    .logoMobile{
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .future{
+      display: block;
+    }
+    .future h1 {
+     display: inline;
+     font-size: 2.6rem;
+    }
+    .text {
+      width: 100%;
+      line-height: 30px;
+      padding-Left: 0;
+      padding-Right: 0;
+    }
+    .text p{
+      width: 100%;
+      padding-bottom: 5px;
+    }
+    .button{
+      text-align: center;
+      cursor: pointer;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: hsl(5, 85%, 63%);
+      width: 150px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+    .right_text{
+      margin-top: 70px;
+      padding: 10px 0 10px 0;
+      height: 100%;
+      width: 100%;
+    }
+    .right_new{
+     padding: 0 20px 0 20px;
+    }
+    .right_box {
+      padding: 0 20px 0 20px;
+    }
+    .right_box h3 {
+      padding: 8px 0 0 0;
+    }
+    .right_box p {
+      padding: 0 0 8px 0;
+    }
+    .right_text hr {
+      margin: 0 20px 0 20px;
+    }
+}
